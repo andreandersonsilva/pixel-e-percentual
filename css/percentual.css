@@ -1,0 +1,26 @@
+html{
+    font-size:62.5%;
+/*Para calcular pixel em porcentgem podemos utilizr esse exemplo na calculadora / 10 / 16 * 100 = 62.5 (10px - em relação à fonte do navegador)*/    
+}
+
+.container{
+    width:100%;
+    background-color: yellow;
+}
+
+.caixa{
+    width:50%;
+    padding: 10%;
+    margin-top: 10%;
+    font-size: 200%; /*20px*/
+    background-color: #ccc;
+    border: 5px solid black
+    
+}
+
+h1{
+    font-size:250%; /*50px*/
+}
+p{
+    font-size:150%; /*30px*/
+}
